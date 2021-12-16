@@ -1,0 +1,132 @@
+/*---------- RESET CSS ----------*/
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+/*---------- SIDENAV ----------*/
+.sidenav {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 2em;
+  padding: 10px;
+  color: #000;
+}
+.sidenavSeletores {
+  display: block;
+}
+.sidenavSeletores ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidenavSeletores li a {
+  color: #c7c7c7;
+  font-size: 1.5em;
+  display: block;
+  padding: 10px;
+}
+.sidenavSeletores a:hover {
+  color: #000;
+  -webkit-text-stroke-width: 2px;
+}
+/*---------- Introdução ----------*/
+.introducao {
+  background-image: url(imagens/laranja\ azul\ recorte.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.introducao h1{
+  padding: 30px;
+  font-size: 4em;
+}
+.introducao p{
+  padding-left: 30px;
+  margin-top: 20px;
+  font-size: 2em;
+}
+/* Content */
+.conjuntoImagens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+.img{
+  width: 23%;
+}
+.conjuntoImagens div{
+margin-top: 30px;
+}
+/* Footer */
+.footer{
+  background-color: #F6F6F6;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer nav{
+margin: 30px 0 60px 45px;
+}
+.footer ul{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.footer li + li{
+  padding-left:30px ;
+}
+.copyright{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.copyright{
+  display: inline-flex;
+  flex-direction: row;
+    align-items: center;
+}
+.copyright nav{
+  padding-top: 30px;
+  font-size: 12px;
+}
